@@ -67,8 +67,9 @@ Notebook 3: transform MixIT data into socialcontactdata formatting style. Notebo
 
 ---
 
-## Environment & installation
-
-### R and Python package versions
-The code was developed using R version 4.5.1 (2025-06-13) and Python version 3.12.11.
+## R and Python package versions
+The code was developed using R version 4.5.1 (2025-06-13) and Python version 3.12.11.  
+The statistical analysis was performed using ``glmmTMB`` version 1.1.9.
+The computation of the contact matrix was performed using ``pandas`` version 2.3.0 and ``numpy`` version 2.3.0.
+Plotting was performed with ``matplotlib`` version 3.10.3.
 
