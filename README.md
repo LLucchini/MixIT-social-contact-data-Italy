@@ -10,7 +10,7 @@ This repository is primarily **analysis code**; access to the underlying raw sur
 
 ---
 ## Reference
-This code was developed within the scope of the work titled "Post-pandemic social contacts in Italy: implications for social distancing measures on in-person school and work attendance" by Lucchini et al (2026). For more details on the analysis and results, please refer to and cite the ArXiv preprint: https://arxiv.org/abs/2412.18549
+This code was developed within the scope of the work titled "Post-pandemic social contacts in Italy: implications for social distancing measures on in-person school and work attendance" by Lucchini et al (2026). For more details on the analysis and results, please refer to and cite the ArXiv preprint: https://arxiv.org/abs/2412.18549.
 
 ---
 
@@ -52,9 +52,8 @@ The provided `utils.py` includes functions for matrix symmetrization and bootstr
 
 ---
 
-## Data requirements
+## Data
 
-### Raw data
 This repo does **not** expose a public raw dataset at the root. You will generally need:
 - respondent-level survey data (demographics, weights if applicable, survey-day metadata),
 - contact-level diary entries (contact age/age group, setting, physical vs. conversational, etc.),
@@ -62,9 +61,9 @@ This repo does **not** expose a public raw dataset at the root. You will general
 
 If you intend to align with the SocialContactData conventions, the target relational tables are described here: [https://socialcontactdata.org/data/](https://socialcontactdata.org/data/?)
 
-### Notes on related open data
+### Notes on open data
 Note that the statistical model requires data that are not publicly shared and, if needed, should be requested from the corresponding author or data managers.
-Notebook 3: transform MixIT data into socialcontactdata formatting style. Notebook 4-6 can be run with standard structure data available on Zenodo.
+Notebook 3: transform MixIT data into socialcontactdata formatting style. Notebook 4-6 can be run with standard structure data available on [Zenodo](https://zenodo.org/records/17579537).
 
 ---
 
