@@ -10,7 +10,7 @@ This repository is primarily **analysis code**; access to the underlying raw sur
 
 ---
 ## Reference
-This code was developed within the scope of the work titled "Post-pandemic social contacts in Italy: implications for social distancing measures on in-person school and work attendance" by Lucchini et al (2026). For more details on the analysis and results, please refer to and cite the ArXiv preprint: https://arxiv.org/abs/2412.18549.
+This code was developed within the scope of the work titled "Implications for distancing measures on in-person school and work attendance from Italian post-pandemic social contact data" by Lucchini et al (2026). For more details on the analysis and results, please refer to and cite the ArXiv preprint: https://arxiv.org/abs/2412.18549.
 
 ---
 
