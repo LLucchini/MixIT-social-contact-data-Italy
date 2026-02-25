@@ -35,6 +35,8 @@ Top-level files and directories (from the repo root):
   - `5-matrices_computation.ipynb`
   - `6-data_representativeness.ipynb`
 - `7-tables.R` — table generation (R)
+- `8_transmissibility_reductions` - transmissibility reduction analysis
+- `9_SEIR_influenza_23_24` - SEIR model and influenza (season 23/24)
 - `utils.py` — shared plotting + matrix utilities (Python)
 - `LICENSE` — [MIT](https://github.com/LLucchini/MixIT-social-contact-data-Italy)
 
@@ -47,7 +49,8 @@ Top-level files and directories (from the repo root):
 - bootstrap uncertainty for matrices (if enabled),
 - representativeness comparisons vs. national benchmarks,
 - publication-ready tables.
-
+- compute R0 and the relative reductions
+- showcase an application for influenza A (season 2023/2024) using a SEIR compartmental model
 The provided `utils.py` includes functions for matrix symmetrization and bootstrapping (commonly used when producing reciprocal contact rates), plus plotting helpers.
 
 ---
@@ -72,4 +75,5 @@ The code was developed using R version 4.5.1 (2025-06-13) and Python version 3.1
 The statistical analysis was performed using ``glmmTMB`` version 1.1.9.
 The computation of the contact matrix was performed using ``pandas`` version 2.3.0 and ``numpy`` version 2.3.0.
 Plotting was performed with ``matplotlib`` version 3.10.3.
+The detailed requirements for the SEIR model for influenza A are described in the README files within `9_SEIR_influenza_23_24`.
 
